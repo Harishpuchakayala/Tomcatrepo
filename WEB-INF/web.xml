@@ -1,0 +1,95 @@
+<web-app>
+
+  
+
+
+
+<servlet>
+ <servlet-name>newuser</servlet-name>
+ <servlet-class>newUserservlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>newuser</servlet-name>
+ <url-pattern>newuserlogin</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+ <servlet-name>employeedetails</servlet-name>
+ <servlet-class>employeedetails</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>employeedetails</servlet-name>
+ <url-pattern>employeedetails</url-pattern>
+</servlet-mapping>
+<servlet>
+ <servlet-name>wsmuserlogin</servlet-name>
+ <servlet-class>userLogin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>wsmuserlogin</servlet-name>
+ <url-pattern>existinguserlogin</url-pattern>
+</servlet-mapping>
+<servlet>
+ <servlet-name>dsmadminlogin</servlet-name>
+ <servlet-class>userLogin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>dsmadminlogin</servlet-name>
+ <url-pattern>adminlogin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>item</servlet-name>
+ <servlet-class>item</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>item</servlet-name>
+ <url-pattern>item</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+ <servlet-name>itemtransaction</servlet-name>
+ <servlet-class>itemtransaction</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>itemtransaction</servlet-name>
+ <url-pattern>itemtransaction</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+ <servlet-name>transaction</servlet-name>
+ <servlet-class>transaction</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>transaction</servlet-name>
+ <url-pattern>transaction</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+ <servlet-name>transactionreport</servlet-name>
+ <servlet-class>inventorymanagementreport</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>transactionreport</servlet-name>
+ <url-pattern>transactionreport</url-pattern>
+</servlet-mapping>
+
+
+
+
+</web-app>
+
+
